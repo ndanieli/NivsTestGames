@@ -35,17 +35,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 21);
+            this.label1.Location = new System.Drawing.Point(14, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 17);
+            this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Available Games";
             // 
             // buttonRPS
             // 
-            this.buttonRPS.Location = new System.Drawing.Point(22, 53);
+            this.buttonRPS.Location = new System.Drawing.Point(16, 43);
+            this.buttonRPS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonRPS.Name = "buttonRPS";
-            this.buttonRPS.Size = new System.Drawing.Size(168, 28);
+            this.buttonRPS.Size = new System.Drawing.Size(126, 23);
             this.buttonRPS.TabIndex = 1;
             this.buttonRPS.Text = "Rock-Paper-Scissors";
             this.buttonRPS.UseVisualStyleBackColor = true;
@@ -53,13 +55,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.ClientSize = new System.Drawing.Size(212, 206);
             this.Controls.Add(this.buttonRPS);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Game Selector";
             this.ResumeLayout(false);
             this.PerformLayout();
 
